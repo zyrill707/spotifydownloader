@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Spotify Downloader</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+  <div class="cont">
+    <img src="spotify.png">
+    <input id="userInput" type="text" placeholder="Enter Spotify URL">
+    <button onclick="changeText()" id="convertBtn">Search</button>
+  </div>
+  <div id="results" class="results">
+    <img id="thumb" src=''>
+    <h3 id="main"></h3>
+  </div>
+  <footer class="userFeedback">
+  <form name="feedback" netlify>
+    <input type="text" name="name" placeholder="Enter your Name(optional)">
+    <input type="number" name="age" placeholder="Enter your Age">
+    <input type="email" name="email" placeholder="Enter Email" required>
+    <input type="text" name="feedback" placeholder="Your Feedback">
+    <button type="submit">Submit</button>
+  </form>
+</footer>
+  <script src="main.js"></script>
+</body>
+</html>

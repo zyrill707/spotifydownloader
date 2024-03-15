@@ -1,0 +1,111 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.cont img{
+  width:89px;
+  height:69px;
+  background:transparent;
+  padding-left:5px;
+}
+
+body{
+  background-color:#52f087;
+}
+
+.cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap:1%;
+  align-items:center;
+  width:350px;
+}
+
+.cont input{
+  height:30px;
+  border:none;
+  background: transparent;
+  border-bottom:1px solid gray;
+  font-size:15px;
+}
+
+.cont input:focus{
+  outline:none;
+}
+
+.cont button{
+  padding:5px 5px;
+  border:none;
+  background:linear-gradient(134deg, green, lightgreen, green);
+  border-radius:2px;
+  text-transform: uppercase;
+  box-shadow:0px 2px 5px black;
+}
+
+.cont button:active{
+  box-shadow:0px 2px 5px white;
+}
+
+.results{
+  display:flex;
+  flex-direction:column;
+  width:200px;
+  justify-content: center;
+  margin-left:80px;
+  align-items:center;
+}
+
+#results button{
+  padding:5px 5px;
+  border:none;
+  background:linear-gradient(134deg, green, lightgreen, green);
+  border-radius:2px;
+  text-transform: uppercase;
+  box-shadow:0px 2px 5px black;
+}
+
+#results button:active{
+  box-shadow:0px 2px 5px white;
+  margin-top:5px;
+}
+
+#main {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style:italic;
+}
+
+.userFeedback form{
+  display:flex;
+  flex-direction: column;
+  width:160px;
+  position: relative;
+  left:6%;
+  top:500px;
+  gap:5px;
+}
+
+.userFeedback input{
+  border:none;
+  background: transparent;
+  border-bottom:1px solid gray;
+}
+
+.userFeedback input:focus{
+  outline:none;
+}
+
+form button{
+  padding:2px 2px;
+  border:none;
+  box-shadow:0px 2px 5px black;
+  text-transform:uppercase;
+  background:linear-gradient(135deg, green, lightgreen, green);
+}
+
+form button:active{
+  box-shadow:0px 2px 15px white;
+}
